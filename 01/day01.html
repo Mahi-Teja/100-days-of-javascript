@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="box-border">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twcss
+
+    </title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="flex  justify-center items-center bg-[#110e1b]">
+                                               <!-- bg-[#8d99ae] -->
+    <div class="text-[#2b2d42] bg-[#cad8de] align-middle p-3.5 text-center my-24  shadow-[0_0_30px_8px_#3c162f7c] rounded-lg">
+            <!-- text-[#2b2d42] bg-[#]                                                              -->
+        <p class="text-center font-bold ">Tip Calculator</p>
+        <div class="output pt-4  h-7 font-bold text-[#ef233c]"></div>
+        <div class="flex flex-col w-50 p-5 ">
+            <p class="p-1">Enter Bill Amount</p>
+            <input class=" text-center m-auto p-1 rounded-lg" type="number" name="bill-amount" id="bill-amount" required placeholder="Rs.">
+            <p class="p-1">How was the service?</p>
+            <select class="   m-auto p-1 rounded-lg text-center" name="Tip" id="tip" required>
+                <option class=" " disabled selected value="-1">Slecet the tip</option>
+                <option class="" value="50">50% - Exelent</option>
+                <option class="" value="25">25% - Good</option>
+                <option class="" value="15">15% - Okay</option>
+                <option class="" value="5">5% - Bad</option>
+                <option class="" value="0">No Tip</option>
+            </select>
+            <p class="p-1" >Split between How many people?</p>
+            <input class=" text-center m-auto p-1 rounded-lg" type="number" name="Split" id="split" placeholder="split between..?" require>
+        </div>
+        <button type="submit" class="calculate bg-[#ef233c] text-[#fff] p-2 rounded-lg w-48" onclick="calculateTip()">Calculate</button>
+                                                    <!-- #ef233c -->
+    </div>
+    <script src="tipCalc.js"></script>
+</body>
+</html>
