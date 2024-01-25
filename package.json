@@ -2,9 +2,10 @@
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   },
-  
-   "script": {
-      "build-css": "npx tailwindcss -i src/input.css -o src/output.css"
-   }
-  
+  "script": {
+    "build-css": "npx tailwindcss -i src/input.css -o src/output.css"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
 }
