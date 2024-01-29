@@ -662,6 +662,10 @@ video {
   margin: 5rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -670,8 +674,9 @@ video {
   margin: auto;
 }
 
-.m-4 {
-  margin: 1rem;
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mx-auto {
@@ -709,9 +714,14 @@ video {
   margin-bottom: 2.25rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mb-0 {
@@ -786,6 +796,10 @@ video {
   height: 3rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -838,29 +852,12 @@ video {
   height: 1rem;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-\[60vh\] {
   height: 60vh;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
-}
-
-.h-\[60\%\] {
-  height: 60%;
-}
-
-.h-\[fit-content\] {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .h-fit {
@@ -868,12 +865,16 @@ video {
   height: fit-content;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-screen {
+  height: 100vh;
 }
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-2 {
@@ -928,44 +929,20 @@ video {
   width: 2%;
 }
 
+.w-\[5\%\] {
+  width: 5%;
+}
+
 .w-\[60vw\] {
   width: 60vw;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-\[25\%\] {
-  width: 25%;
-}
-
-.w-\[112\%\] {
-  width: 112%;
-}
-
-.w-\[12\%\] {
-  width: 12%;
-}
-
-.w-\[50px\] {
-  width: 50px;
 }
 
 .w-\[90vw\] {
   width: 90vw;
 }
 
-.w-\[5\%\] {
-  width: 5%;
-}
-
-.w-\[100px\] {
-  width: 100px;
+.w-full {
+  width: 100%;
 }
 
 .min-w-72 {
@@ -1047,6 +1024,10 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1061,10 +1042,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-3xl {
-  border-radius: 1.5rem;
 }
 
 .border {
@@ -1161,11 +1138,6 @@ video {
 
 .bg-\[\#\] {
   background-color: #;
-}
-
-.bg-\[\#a4d1a4\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(164 209 164 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#cad8de\] {
@@ -1281,6 +1253,11 @@ video {
   background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
+.bg-pink-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+}
+
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
@@ -1338,11 +1315,6 @@ video {
 .bg-yellow-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(161 98 7 / var(--tw-bg-opacity));
-}
-
-.bg-pink-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20 {
@@ -1445,6 +1417,11 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-10 {
@@ -1607,6 +1584,25 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#ffddee\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 221 238 / var(--tw-text-opacity));
+}
+
+.text-\[\#ddd\] {
+  --tw-text-opacity: 1;
+  color: rgb(221 221 221 / var(--tw-text-opacity));
+}
+
+.text-\[\#64656f\] {
+  --tw-text-opacity: 1;
+  color: rgb(100 101 111 / var(--tw-text-opacity));
+}
+
+.text-\[\#bg-slate-600\] {
+  color: #bg-slate-600;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1689,11 +1685,6 @@ video {
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.before\:hidden::before {
-  content: var(--tw-content);
-  display: none;
-}
-
 .focus\:ring:focus {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -1726,10 +1717,6 @@ video {
 
   .sm\:top-\[38\%\] {
     top: 38%;
-  }
-
-  .sm\:hidden {
-    display: none;
   }
 
   .sm\:h-\[12\%\] {
