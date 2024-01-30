@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Character Counter</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="box-border">
+    <main class="bg-red-500 h-screen flex flex-col justify-center items-center">
+        <div class="text-3xl text-center p-3 font-bold">Live Character Counter</div>
+        <section class="bg-red-300 rounded-lg text-center p-4 ">
+            <div class="text-2xl">
+                <p class="">Total Characters typed <br> (space included):</p>
+                <p class="char-count font-bold text-3xl text-red-600">0</p>
+
+            </div>
+            <div class="">
+                <textarea class="text-to-count bg-red-200 rounded-lg resize-none p-2 outline-none" placeholder="Write Your message here to count the Character (spaces are included)" name="custom-text" id="custom-text" cols="30" rows="10"></textarea>
+            </div>
+            
+        </section>
+    </main>
+    <script src="liveCharCounter.js"></script>
+</body>
+</html>
