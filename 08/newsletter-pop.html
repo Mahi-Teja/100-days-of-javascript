@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Letter Pop-Up</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="newsletter-popup.css">
+</head>
+<body class=" flex flex-col items-center box-border bg-[#5fd8ee] ">
+    <div class="subscribe flex flex-col  justify-center items-center my-[15%] ">
+        <p class=" md:text-2xl  p-2 m-0 md:m-3">🌟Join Our Newsletter for Exclusive Updates!🌟</p>
+        <button class="hover:shadow-2xl shadow-orange-950 rounded-2xl bg-orange-400 p-3 text-2xl m-1/2">Subscribe</button>
+    </div>
+    <!-- ----------POP UP----------------- -->
+    <div class="pop-up flex  transition flex-col   absolute rounded text-center bg-pink-400 md:w-1/2  top-10 w-11/12 items-center">
+        <p class="absolute right-8 top-5 cursor-pointer"><img class="close-popup" src="../icons/rectangle-xmark-regular.svg" alt="" srcset=""></p>
+        <img class="w-32 p-5" src="../icons/envelope-open-regular.svg" alt="">
+        <h1 class="text-3xl p-3 m-1 text-center"> Join Our News Letter</h1>
+        <p class="p-3">Unlock a world of insights, exciting offers, and exclusive content by joining our vibrant community. Subscribe now to stay in the loop on the latest trends, product launches, and special events.</p>
+        <input class="rounded p-3 m-2 w-3/4 text-center" type="email" name="email-id" id="email-id" placeholder="example@email.com">
+        <button type="submit" class="p-2 px-5 m-5 rounded-full bg-pink-300 items-center active:bg-pink-500">Sign Up!</button>
+    </div>
+    <script src="newsletterPopUp.js"></script>
+</body>
+</html>
