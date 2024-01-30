@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="flex  justify-center items-center bg-slate-600 h-screen ">
+<div class="mx-4 rounded-2xl p-10 text-slate-600 bg-slate-900 h-90vh">
+    
+    <h1 class="text-3xl text-center p-2">Age Calculator</h1>
+
+    <div class="dob flex flex-col ">
+        <label class="p-2 text-xl" for="birthdate">Select your Date Of Birth:</label>
+        <input class="text-black m-2" type="date" id="birthdate" name="birthdate" >    
+    </div>
+
+    <h3 class="text-xl p-2 flex ">Calculate Age</h3>
+    <button class="bg-slate-800 text-[#ddd] p-2 px-5  text-center rounded-lg"  onclick="calculateAge()">Calculate</button>
+    <div class="output p-2 text-center text-white text-xl">  </div>
+
+    
+
+</div>
+    <script src="ageCal.js"></script>
+</body>
+</html>
