@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="box-border bg-slate-900">
+    <main class="h-screen ">
+
+        <section class=" slider-container flex relative m-auto h-3/5 w-full md:w-3/4 lg:w-2/3 xl:w-1/2">
+
+            <div id="img-box" class="images overflow-hidden relative flex h-auto  w-full object-contain object-center ">
+                
+                <img class="img-item img absolute h-full  w-full max-w-full" id="img-1" src="https://source.unsplash.com/random/720*1080/?water" alt="" srcset="">
+                <img class="img-item img absolute h-full  w-full max-w-full" id="img-2" src="https://source.unsplash.com/random/720*1080/?air" alt="" srcset="">
+                <img class="img-item img absolute h-full  w-full max-w-full" id="img-3" src="https://source.unsplash.com/random/720*1080/?fire" alt="" srcset="">
+                <img class="img-item img absolute h-full  w-full max-w-full" id="img-4" src="https://source.unsplash.com/random/720*1080/?ground,land" alt="" srcset="">
+                <img class="img-item img absolute h-full  w-full max-w-full" id="img-5" src="https://source.unsplash.com/random/720*1080/?sky" alt="" srcset="">
+                
+            </div>
+            
+            <button class="prev-btn absolute text-pink-950 p-2 top-1/2 rounded-lg left-4  opacity-50 hover:border hover:opacity-100 ">  <img src="../icons/angle-left-solid.svg" alt="" srcset=""></button>
+            <button class="next-btn absolute text-pink-950 p-2 top-1/2 rounded-lg right-4 opacity-50 hover:border hover:opacity-100   "> <img src="../icons/angle-right-solid.svg" alt="" srcset=""> </button>
+            
+        </section>
+
+
+
+    </main>
+    
+    <script src="imgSlider.js"></script>
+</body>
+</html>
