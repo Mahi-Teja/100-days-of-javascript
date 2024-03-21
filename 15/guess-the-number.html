@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="h-screen  flex bg-slate-800">
+    <main class="rounded-lg m-auto bg-slate-500 p-5 text-center">
+        <p class="p-1">Guess the number correctly between 1 to 100 , you have 10 attemts to guess</p>
+        <h1 class="text-3xl">Guess IT</h1>
+        <input type="number" name="number" id="number" class="m-3 p-3 text-xl rounded-lg">
+        <button class="guess block m-auto rounded-md border p-2 ">Guess</button>
+        <h2 id="result" class="text-3xl"></h2>
+        <p class="p-2 m-2">previous guess: <span id="previous-guess" class="font-semibol">-</span></p>
+        <p class="p-2 m-2">Guesses Left: <span id="attemts-left" class="font-bold">10</span></p>
+        <p class="low-or-high p-2 m-2 text-lg"></p>
+    </main>
+    <script src="guessthenumber.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-slate-800">
+    <main class="m-auto h-screen flex flex-col items-center justify-center ">
+        <section class="text-2xl m-3 p-2 bg-slate-600 rounded-lg flex flex-col items-center justify-center " numericals >
+            <div class="m-2">
+                <input  type="text" name="value-in-out" id="value-in-out" value-in-out readonly class="p-3 m-3 w-11/12 bg-slate-400 rounded-lg outline-none cursor-pointer text-end">
+            </div>
+            <div class="">
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" clear-field>AC</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" delete-item>DEL</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>/</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" cal-power>ON</button>
+            </div>
+            <div class="">
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>7</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>8</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>9</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>+</button>
+            </div>
+            <div class="">
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>4</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>5</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>6</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>-</button>
+            </div>
+            <div class="">
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>1</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>2</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>3</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>*</button>
+            </div>
+            <div class="">
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>0</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>00</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" numerical-item>.</button>
+                <button class="cal-btn bg-slate-500 p-3 m-1 w-16 rounded-3xl shadow-[0px_0px_8px_1px] outline-none shadow-slate-700 active:shadow-none" evaluate-exp>=</button>
+            </div>
+        </section>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+</html>

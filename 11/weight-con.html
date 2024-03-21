@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-purple-700 h-screen ">
+    <main class="flex m-auto justify-center items-center h-full">
+        <section class="flex flex-col text-center  justify-center items-center p-5 rounded-3xl bg-purple-900 text-white md:text-3xl ">
+            <div class="flex justify-center items-center ">
+                <input type="text" name="weight-Kg" id="weight-Kg" placeholder="Enter Your Weight" weight-in-kg class="p-2 rounded-3xl text-center text-black outline-none">
+                <p class="px-2">in Kgs.</p>
+            </div>
+            <div class="p-3 justify-center">
+                <p class="flex  justify-center items-center p-5   ">Weight in Pounds:</p>
+                <p converted-weight class="flex  justify-center items-center p-2   "></p>
+            </div>
+        </section>
+    </main>
+    <script src="wtConv.js"></script>
+</body>
+</html>

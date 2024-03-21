@@ -41,7 +41,7 @@ function prevSlide(){
     });
 }
 
-let slideShow =setInterval(autoSlide,3000);
+// let slideShow =setInterval(autoSlide,3000);
 
 function autoSlide(){
     nextSlide()
