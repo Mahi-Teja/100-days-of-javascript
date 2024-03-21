@@ -1,0 +1,41 @@
+.add-to-cart{
+    animation: ease-in;
+ }
+ .bubble{
+     background-color: rgb(192, 255, 193);
+     border-radius:75% ;
+     height: 15px;
+     width: 15px;
+ }
+ .shake{
+    animation: shake 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+ .buttonAnimate {
+    animation: addcartX 1s  cubic-bezier(0.755, 0.05, 0.855, 0.06);
+ }
+ .buttonAnimate:before{
+    animation:  addcartY 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+ }
+ @keyframes shake {
+         0%{
+            transform: translateX(0%);
+         }
+         25%{
+            transform: translateX(5%);
+         }
+         50%{
+            transform: translateX(-30%);
+         }
+         100%{
+            transform: translateX(0%);
+         }
+     }
+@keyframes addcartX {
+    /* 50%{
+        transform: translateY(-70px);
+    } */
+    100%{
+        transform: translate(350px,-70px);
+    }
+    
+}
