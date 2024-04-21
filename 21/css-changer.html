@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Changer</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-pink-200 h-screen">
+    <section class="p-5 flex flex-col lg:flex-row items-center">
+        <label for="width">Width</label><input type="range" name="width" id="width"  min="0" max="100" value="0" onchange="changeWidth()">
+        <label for="padding">Padding</label><input type="range" name="padding" id="padding" min="0" max="100" value="0" onchange="changePadding()">
+        <label for="border-radius">Border-radius</label><input type="range" name="border-radius" id="border-radius" min="0" max="100" value="0" onchange="changeBorderRadius()">
+        <label for="blur">Blur</label><input type="range" name="blur" id="blur" min="0" max="100" value="0" onchange="changeBlur()">
+        <label for="color">Color</label><input type="color" name="color" id="color" min="0" max="100" value="0" onchange="changeColor()">
+
+    </section>
+    <main class=" ">
+        <section class="m-auto bg-pink-300 flex flex-col items-center" >
+            <img subject class="h-56 w-56 m-2 object-cover" src="https://images.unsplash.com/photo-1708742916134-ebb76614b383?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+        </section>
+    
+    </main>
+    <script src="cssChanger.js"></script>
+</body>
+</html>
