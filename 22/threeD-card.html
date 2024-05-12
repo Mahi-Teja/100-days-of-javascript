@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Card</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <style>
+        .bg-img{
+            background: url(https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+            object-fit: fill;
+            background-position: center;
+
+        }
+        .bg-img2{
+            /* background: url(https://images.unsplash.com/photo-1531406946576-fed4ac832953?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+            object-fit: fill;
+            background-position: center;
+            filter: blur(1px); */
+
+        }
+    </style>
+</head>
+<body class=" bg-img">
+    <main class="">
+        <section  class="sec flex h-screen">
+            <div style="transform-style: preserve-3d;" class="bg-img2 card shadow-[0 0 12px 10px black] flex flex-col items-center justify-center  delay-0  m-auto bg-[#40602c69]  h-80 w-56 rounded-lg ">
+                <div class="rounded-full h-32 w-32 bg-pink-500 shadow-[#40603c69 0 0 18px 10px]">
+                    <img class="h-32 w-32 rounded-full object-cover " src="https://images.unsplash.com/photo-1531406946576-fed4ac832953?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+                </div>
+                <p class="">Blue Macaw</p>
+                <p class="p-3 text-sm text-center">This beautiful sleeping blue parrot caught in the camera at Safari Park, San Diego.</p>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="threeDCard.js"></script>
+</body>
+</html>
